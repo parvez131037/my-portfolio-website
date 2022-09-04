@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parvez Ahmed Ansari Portfolio</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <main class="main">
+        <nav class="navBar">
+            <h1>PARVEZ AHMED ANSARI</h1>
+            <div class="navigationMenu">
+                <a href="#aboutMe">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Project</a>
+                <a href="#contactForm">Let's connect!</a>
+
+            </div>
+        </nav>
+        <section class="heroSection">
+            <img class="profileImage" src="./images/profile-pic (5).png" />
+            <div class="heroSectionDetail">
+                <h1>PARVEZ AHMED ANSARI</h1>
+                <h3>Full Stack Web Developer</h3>
+            </div>
+
+        </section>
+        <section class="aboutMe" id="aboutMe">
+            <h1>What i do...</h1>
+            <p>I am trying to be a Full Stack Web Developer through AlmaBetter. I am trying to learn fronted
+                technologies: HTML, CSS, Javascript with frameworks: React JS and Bootstrap, Backend technologies: Node JS
+                with framework Express JS and database hiding with Mongo DB. My objective is simply to be the best
+                developer that I can be and to contribute to the technology industry all that I know and can do. I am
+                dedicated to perfecting my craft by learning from more seasoned developers , remaining humble, and
+                continiously making strides to learn all that I can about developement. I will continue to contribute my
+                overall success as a developer.</p>
+
+
+        </section>
+        <section class="skillsAndProjects">
+            <div class="skills" id="skills">
+                <h1 class="cardHeading">Skills</h1>
+                <img title="HTML" src="./images/HTML.svg" />
+                <img title="CSS" src="./images/CSS.svg" />
+                <img title="JAVASCRIPT" src="./images/JS.svg" />
+                <img title="REACT JS" src="./images/REACT.svg" />
+                <img title="NODE JS" src="./images/NODE JS.svg" />
+                <img title="ANGULAR JS" src="./images/ANGULAR JS.svg" />
+                <img title="BOOTSRAP" src="./images/BOOTSTRAP.svg" />
+                <img title="SQL" src="./images/SQL.svg" />
+                <img title="JQUERY" src="./images/JQUERY.svg" />
+                <img title="FIREBASE" src="./images/FIREBASE.svg" />
+                <img title="MONGO DB" src="./images/MONGO DB.svg" />
+                <img title="REDUX" src="./images/REDUX.svg" />
+            </div>
+            <div class="projects" id="projects">
+                <h1 class="cardHeading">Projects</h1>
+                <div class="projectContainer">
+                    <img src="./images/CSS.svg" />
+                    <div class="projectDescription">
+                        <h3>To-Do List</h3>
+                        <p>It's have the feature to add an item to the list and if the task is completed then the functionality to remove it from the list. </p>
+                    </div>
+
+                </div>
+                <div class="projectContainer">
+                    <img src="./images/CSS.svg" />
+                    <div class="projectDescription">
+                        <h3>Portfolio  Website</h3>
+                        <p>It's an online representation of work you have created, as well as your skills and experiences</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="contactForm" id="contactForm">
+            <h1>Let's connect!</h1>
+            <div class="formGroup">
+                <label for="name">Enter full name</label> <br />
+                <input type="text" id="name" placeholder="Full Name" />
+            </div>
+            <div class="formGroup">
+                <label for="email">Email</label><br />
+                <input type="text" id="email" placeholder="Email" />
+            </div>
+            <div class="formGroup">
+                <label for="message">Message</label><br />
+                <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+            </div>
+            <button class="submitButton" onClick={submit()}> Connect </button>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
